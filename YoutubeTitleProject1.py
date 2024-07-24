@@ -9,7 +9,7 @@ from langchain.memory import ConversationBufferMemory
 
 
 
-os.environ['Google_API_KEY']="AIzaSyBB2_xvoJ5F7t-DHHV-s1ryJRC-W8fy3ho"
+os.environ['Google_API_KEY']="AaaIzastSyBB2_xvoJ5F7t-DHHV-s1ryJRC-W8fy3ho"
 
 
 #app framework
@@ -32,7 +32,7 @@ prompt = st.text_input("Write  your doubt here")
 
 #LLM
 llm = GoogleGenerativeAI(model="models/text-bison-001",
-                         google_api_key='AIzaSyBB2_xvoJ5F7t-DHHV-s1ryJRC-W8fy3ho',
+                         google_api_key='AaaIzaSsstyBB2_xvoJ5F7t-DHHV-s1tuhryJRC-W8fy3ho',
                          temperature=0.9)
 #Memory
 memory=ConversationBufferMemory(input_key='topic', memory_key='chat_history')
